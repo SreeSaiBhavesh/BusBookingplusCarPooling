@@ -1,6 +1,6 @@
 <h1 align="center">Ideal Booking</h1>
 <p align="center">
-     Wanted to book your bus tickets? What if Bus tickets are sold out? Here we are ..<br/> 
+     Wanted to book your bus tickets? What if Bus tickets are sold out?.<br/> 
     This is a platform where one can book their bus tickets or can find cars for sharing to their destination places. So if you can't find bus tickets 
     you can try for car pooling. Car owners can keep their vehicles in car pooling and can get fare amount.<br/>
 </p>
