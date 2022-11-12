@@ -1,0 +1,86 @@
+.itemBuses {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.itemBusesCol:first-child,
+.itemBusesCol:nth-child(3) {
+    flex: 1;
+}
+
+.itemBusesCol:nth-child(2) {
+    flex: 2;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemBusesCol img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.itemBusesCol:nth-child(2) h2 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.itemBusesDivs {
+    display: flex;
+}
+
+.itemBusDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.itemBusDiv .rating {
+    background-color: #001e28;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.itemBusDiv span {
+    letter-spacing: 1.3px;
+    color: #001e28;
+}
+
+.itemBusesCol:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemBusesCol:last-child .itemBusesColDiv:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: #ff7f50;
+}
+
+.itemBusesCol:last-child .itemBusesColDiv button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: #001e28;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.itemBusesCol:last-child .itemBusesColDiv button:hover {
+    background-color: #000000;
+}

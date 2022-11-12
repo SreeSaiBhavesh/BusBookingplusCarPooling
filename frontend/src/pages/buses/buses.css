@@ -1,0 +1,15 @@
+.busesContainer {
+    padding: 50px 10px;
+}
+
+.busesRow {
+    display: flex;
+}
+
+.busesRow .busesCol:first-child {
+    flex: 1;
+}
+
+.busesRow .busesCol:last-child {
+    flex: 3;
+}

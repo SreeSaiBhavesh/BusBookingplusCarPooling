@@ -1,0 +1,71 @@
+.search-item {
+    margin-bottom: 15px;
+}
+
+.searchBuses {
+    position: sticky;
+    background-color: #ff7f50;
+    height: max-content;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.search-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-item label {
+    color: #ffffff;
+    letter-spacing: 1.3px;
+}
+
+.searchOptionsItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.search-item input {
+    height: 40px;
+    padding: 0 20px;
+    color: #001e28;
+}
+
+.search-item label:nth-child(2) {
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #001e28;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.search-item .btnSearch {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: #001e28;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.search-item .btnSearch:hover {
+    background-color: #000000;
+}
+
+.search-item:nth-child(2) {
+    position: relative;
+}
+
+.search-item:nth-child(2) .searchDate {
+    position: absolute;
+    top: 58px;
+    left: -10px;
+    box-shadow: 0 0 10px #ff7f50;
+}

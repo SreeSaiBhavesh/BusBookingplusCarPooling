@@ -1,0 +1,71 @@
+.busContainer{
+    margin: 100px 25px;
+}
+
+.busRow:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.busTitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #ff7f50
+}
+
+.busRow:first-child span {
+    color: #001e28;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+}
+
+.busBtn {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: #001e28;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.busBtn:hover {
+    background-color: #000000;
+}
+
+.busRow:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+.busRow:nth-child(3) {
+    margin-bottom: 100px;
+}
+
+.busSubTitle {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.busDesc {
+    letter-spacing: 1.3px;
+}
+
+.react-photo-album--photo {
+    transition: all 1s;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.react-photo-album--photo:hover {
+    transform: scale(1.05);
+} 
+
+element.style{
+    width: 500px;
+    height: 500px;
+}
