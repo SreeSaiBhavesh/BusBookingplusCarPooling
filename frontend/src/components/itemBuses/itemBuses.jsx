@@ -24,7 +24,7 @@ const ItemBuses = ({item}) => {
       </div>
       <div className="itemBusesCol">
             <div className="itemBusesColDiv">
-                <h2>${(item.price).toFixed(2)}</h2>
+                <h2>₹{(item.price).toFixed(2)}</h2>
             </div>
             <div className="itemBusesColDiv">
                 <span>Free Wi-Fi</span>

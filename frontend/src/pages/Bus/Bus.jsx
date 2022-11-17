@@ -73,7 +73,7 @@ const Bus = () => {
                             <div className="buscol">
                                 <h2 className="busTitle">{data.name}</h2>
                                 <span><FontAwesomeIcon icon={faMapLocation} />{data.address}</span>
-                                <h4><strong>Price: ${data.price}</strong></h4>
+                                <h4><strong>Price: ₹{data.price}</strong></h4>
                             </div>
                             <div className="buscol">
                                 <button className="busBtn" onClick={handleClick}>Booking Now</button>

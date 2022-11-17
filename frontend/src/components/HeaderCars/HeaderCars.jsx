@@ -115,6 +115,10 @@ const HeaderCars = (type) => {
                             <div className="search">
                                 <div className="search-item">
                                     <FontAwesomeIcon icon={faBus} />
+                                    <input type="text" placeholder='Start Location' />
+                                </div>
+                                <div className="search-item">
+                                    <FontAwesomeIcon icon={faBus} />
                                     <input type="text" onChange={(e) => setDestination(e.target.value)} placeholder='Where are you going?' />
                                 </div>
 

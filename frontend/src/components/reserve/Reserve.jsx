@@ -63,7 +63,7 @@ const Reserve = ({setOpen, BusId}) => {
       );
 
       setOpen(false);
-      navigate("/");
+      navigate("/success");
 
     } catch(err) {
 
